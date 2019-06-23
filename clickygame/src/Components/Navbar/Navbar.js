@@ -1,31 +1,38 @@
 import React from 'react'
 
+
+
+
+
 const Navbar = _ => {
+
     return (
+    
+      
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand">Clicky Game</a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarText">
+  {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> */}
+    {/* <span className="navbar-toggler-icon"></span> */}
+  {/* </button> */}
+  {/* <div className="collapse navbar-collapse" id="navbarText"> */}
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
         <a className="nav-link" href="#"> BT21 Version <span className="sr-only">(current)</span></a>
       </li>
       </ul>
       <span className="navbar-text">
-        <a className="nav-link" href="#">Score: </a>  
+        <a id="navScore" className="nav-link" href="#">Score: {} </a>  
       </span>
 
       <span className="navbar-text">
-      <a className="nav-link" href="#">Total:</a>
+      <a id="navTotal" className="nav-link" href="#">Total:</a>
           </span>
     
     {/* <span className="navbar-text">
       Navbar text with an inline element
     </span> */}
-  </div>
+
 </nav>
         </>
     )

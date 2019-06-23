@@ -1,72 +1,91 @@
-body {
+.container {
   margin: auto;
-  width: 80%
+  width: 40%;
+  
+}
+body {
+  align-content: center
 }
 .jumbotron{
   text-align: center;
 }
 
+
 .button1 {
   background-image: url('./assets/img/koya1.jpg');
-  height: 50px;
-  width: 50px
+  background-size: 140px;
+  height: 150px;
+  width: 150px;
+
+
 }
 
 .button2 {
   background-image: url('./assets/img/koya2.jpg');
-  height:50px;
-  width:50px;
+  background-size: 140px;
+  height:150px;
+  width:150px;
 
 }
 .button3 {
 background-image: url('./assets/img/koya3.jpg');
-height:50px;
-width:50px;
+background-size: 140px;
+height:150px;
+width:150px;
 }
 .button4 {
 background-image: url('./assets/img/koya4.jpg');
-height:50px;
-width:50px;
+background-size: 145px;
+height:150px;
+width:150px;
 }
 .button5 {
 background-image: url('./assets/img/koya5.jpg');
-height:50px;
-width:50px;
+background-size: 140px;
+height:150px;
+width:150px;
 }
 .button6 {
 background-image: url('./assets/img/koya6.jpg');
-height:50px;
-width:50px;
+background-size: 145px;
+height:150px;
+width:150px;
 }
 .button7 {
 background-image: url('./assets/img/koya7.jpg');
-height:50px;
-width:50px;
+background-size: 140px;
+height:150px;
+width:150px;
 }
 .button8 {
 background-image: url('./assets/img/koya8.jpg');
-height:50px;
-width:50px;
+background-size: 145px;
+height:150px;
+width:150px;
 }
 .button9 {
 background-image: url('./assets/img/koya9.jpg');
-height:50px;
-width:50px;
+background-size: 140px;
+height:150px;
+width:150px;
 }
 .button10 {
 background-image: url('./assets/img/koya10.jpg');
-height:50px;
-width:50px;
+background-size: 140px;
+height:150px;
+width:150px;
 }
 .button11 {
 background-image: url('./assets/img/koya11.jpg');
-height:50px;
-width:50px;
+background-size: 140px;
+height:150px;
+width:150px;
 }
 .button12 {
 background-image: url('./assets/img/koya12.jpg');
-height:50px;
-width:50px
+background-size: 140px;
+height:150px;
+width:150px
 }
 
 

@@ -4,7 +4,26 @@ import Jumbotron from './Components/Jumbotron/Jumbotron.js'
 // import logo from './logo.svg';
 import './App.css';
 
+
+let countClick = 0;
+let totaScore = 0;
+
 class App extends Component {
+
+
+  state = {
+    countClick,
+    totaScore,
+
+  }
+
+  
+  handleSetClicked = id => {
+    const match = this.state.match;
+    const countClick = match.filter(same => same.id === id)
+
+
+  }
   render () {
     return (
       <>
@@ -14,7 +33,7 @@ class App extends Component {
 <div className= "container" > 
     <div className="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
   <div className="btn-group mr-2" role="group">
-    <button type="button" className="button1"></button>
+    <button type="button" className="button1" ></button>
  
   </div>
   <div className="btn-group mr-2" role="group">

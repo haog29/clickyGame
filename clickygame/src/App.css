@@ -1,6 +1,7 @@
 .container {
   margin: auto;
   width: 40%;
+  margin-bottom:30px; 
   
 }
 body {
@@ -8,6 +9,10 @@ body {
 }
 .jumbotron{
   text-align: center;
+}
+
+#navScore, #navTotal {
+  color: black;
 }
 
 
@@ -47,7 +52,7 @@ width:150px;
 }
 .button6 {
 background-image: url('./assets/img/koya6.jpg');
-background-size: 145px;
+background-size: 146px;
 height:150px;
 width:150px;
 }

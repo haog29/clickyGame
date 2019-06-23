@@ -1,32 +1,29 @@
 import React from 'react'
+// import { tsPropertySignature } from '@babel/types';
 
 
 
 
 
-const Navbar = _ => {
+const Navbar = props => {
 
     return (
     
       
         <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand">Clicky Game</a>
-  {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> */}
-    {/* <span className="navbar-toggler-icon"></span> */}
-  {/* </button> */}
-  {/* <div className="collapse navbar-collapse" id="navbarText"> */}
+  <p className="navbar-brand">Clicky Game</p>
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#"> BT21 Version <span className="sr-only">(current)</span></a>
+        <p className="nav-link"> BT21 Version <span className="sr-only">(current)</span></p>
       </li>
       </ul>
       <span className="navbar-text">
-        <a id="navScore" className="nav-link" href="#">Score: {} </a>  
+        <p id="navScore" className="nav-link" >Score: {props.countClick} </p>  
       </span>
 
       <span className="navbar-text">
-      <a id="navTotal" className="nav-link" href="#">Total:</a>
+      <p id="navTotal" className="nav-link">Top Score:{props.countClick}</p>
           </span>
     
     {/* <span className="navbar-text">

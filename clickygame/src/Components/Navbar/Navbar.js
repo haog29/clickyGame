@@ -23,7 +23,7 @@ const Navbar = props => {
       </span>
 
       <span className="navbar-text">
-      <p id="navTotal" className="nav-link">Top Score:{props.countClick}</p>
+      <p id="navTotal" className="nav-link">Top Score:{props.topScore}</p>
           </span>
     
     {/* <span className="navbar-text">

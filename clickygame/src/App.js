@@ -7,6 +7,7 @@ import './App.css';
 
 let countClick = 0;
 let topScore = 0;
+let prompt ='Have fun playing';
 
 
 
@@ -16,6 +17,7 @@ class App extends Component {
   state = {
     countClick,
     topScore,
+    prompt
 
   }
 
@@ -23,6 +25,8 @@ class App extends Component {
   handleIncreamentCount = btn => {
     let newCountClicked = this.state.countClick + 1
     this.setState({countClick:newCountClicked});
+   let message = 'Goodluck'
+   this.setState({prompt: message})
 
 
     let newTopScore = this.state.countClick > topScore
@@ -39,7 +43,8 @@ class App extends Component {
       <>
       {      < Navbar 
       countClick={this.state.countClick}
-      topScore = {this.state.topScore} />}
+      topScore = {this.state.topScore}
+      prompt ={this.state.prompt} />}
 
       < Jumbotron />
 

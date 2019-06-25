@@ -17,6 +17,9 @@ const Navbar = props => {
       <li className="nav-item active">
         <p className="nav-link"> BT21 Version <span className="sr-only">(current)</span></p>
       </li>
+      <li>
+      <p className="nav-link"> Prompt : {props.prompt} <span className="sr-only"></span></p>
+      </li>
       </ul>
       <span className="navbar-text">
         <p id="navScore" className="nav-link" >Score: {props.countClick} </p>  

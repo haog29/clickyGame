@@ -7,7 +7,7 @@ import './App.css';
 
 let countClick = 0;
 let topScore = 0;
-let prompt ='Have fun playing';
+let prompt ='Have fun playing!';
 
 
 
@@ -23,9 +23,28 @@ class App extends Component {
 
   
   handleIncreamentCount = btn => {
+
+    let btnArr = ['button1','button2','button3','buttonn4','button5','button6','button7','button8','buttonn9','button10','buttonn11','button12']
+
+      let btnShuffle = (arr) => {
+        
+        let newPos, temp;
+
+            for (let i = arr.length-1; i>0; i--){
+              newPos = Math.floor(Math.random()*(i+1));
+              temp=arr[i];
+              arr[i] = arr[newPos]
+              arr[newPos] = temp
+            }
+            return arr;
+      }
+      let newArr = btnShuffle(btnArr)
+      let newArr2 = btnShuffle(newArr)
+      console.log(newArr2)
+
     let newCountClicked = this.state.countClick + 1
     this.setState({countClick:newCountClicked});
-   let message = 'Goodluck'
+   let message = 'Remember not to click the same image twice! Goodluck'
    this.setState({prompt: message})
 
 
@@ -35,8 +54,11 @@ class App extends Component {
 
       // const sameClicked = this.state.sameClicked;
 
-  }
 
+
+  }
+ 
+ 
 
   render () {
     return (
@@ -48,7 +70,7 @@ class App extends Component {
 
       < Jumbotron />
 
-<div className= "container" > 
+<div className= "container"> 
     <div className="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
   <div className="btn-group mr-2" role="group">
     <button type="button" id='match' onClick={this.handleIncreamentCount} className="button1" ></button>

@@ -15,10 +15,10 @@ const Navbar = props => {
   <p className="navbar-brand">Clicky Game</p>
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <p className="nav-link"> BT21 Version <span className="sr-only">(current)</span></p>
+        <p className="nav-link"> BT21 Version  | <span className="sr-only">(current)</span></p>
       </li>
       <li>
-      <p className="nav-link"> Prompt : {props.prompt} <span className="sr-only"></span></p>
+      <p className="nav-link" id="prompt"> Prompt : {props.prompt} <span className="sr-only"></span></p>
       </li>
       </ul>
       <span className="navbar-text">

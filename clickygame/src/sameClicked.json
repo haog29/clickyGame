@@ -1,0 +1,123 @@
+[
+
+    {
+  
+      "btn": 1,
+  
+      "image": "./assets/img/koya1.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 2,
+  
+      "image": "./assets/img/koya2.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 3,
+  
+      "image": "./assets/img/koya3.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 4,
+  
+      "image": "./assets/img/koya4.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 5,
+  
+      "image": "./assets/img/koya5.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 6,
+  
+      "image": "./assets/img/koya6.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 7,
+  
+      "image": "./assets/img/koya7.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 8,
+  
+      "image": "./assets/img/koya8.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 9,
+  
+      "image": "./assets/img/koya9.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 10,
+  
+      "image": "./assets/img/koya10.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 11,
+  
+      "image": "./assets/img/koya11.jpg",
+  
+      "clicked": false
+  
+    },
+  
+    {
+  
+      "btn": 12,
+  
+      "image": "./assets/img/koya12.jpg",
+  
+      "clicked": false
+  
+    }
+  
+  ]
